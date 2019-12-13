@@ -26,6 +26,4 @@ Tạo được cái khung với app với các thành phần sau:
     `lib/widgets/product_widget.dart`
     
 #### Kết quả:
-|        |            |   |
-| ------------- |:-------------:| -----:|
-| ![](./demo/day1_home.jpg){ width=50% }| | |
+![](./demo/day1_home.jpg){:height="36px" width="36px"}
