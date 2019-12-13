@@ -26,4 +26,6 @@ Tạo được cái khung với app với các thành phần sau:
     `lib/widgets/product_widget.dart`
     
 #### Kết quả:
-![](./demo/day1_home.jpg){:height="36px" width="36px"}
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+|![](./demo/day1_home.jpg)|![](./demo/day1_home.jpg)|![](./demo/day1_home.jpg)|
