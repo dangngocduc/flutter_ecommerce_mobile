@@ -16,14 +16,17 @@ Design app tham khảo Figma ở link này:
 
     `lib/features/main_page.dart`
     
-    
-- Widget cho phần home(Title, Group Product)
+   
+### Mapping _Code Widget_  <=>  _Design_
 
-    `lib/widgets/simple_title_widget.dart`
+|File Code | Design |
+|----|:----|
+|`lib/widgets/simple_title_widget.dart`|![](./demo/components/widget_title.png)|
+|`lib/widgets/lib/widgets/product_widget.dart`|![](./demo/components/widget_product.png)|
+|`lib/widgets/banner/banner_simple_1_widget.dart`|![](./demo/components/widget_simple_banner_1.png)|
     
-    `lib/widgets/product_widget.dart`
     
-#### Kết quả:
+#### Kết quả Demo:
 |         |            |   |
 | ------------- |:-------------:| -----:|
-|!|![](./demo/day2_update_home.jpg)||
+|![](./demo/day2_update_home.jpg)|![](./demo/day2_update_home.jpg)|![](./demo/day2_update_home.jpg)|
