@@ -4,12 +4,17 @@ import 'dart:developer' as developer;
 import 'package:template_app/widgets.dart';
 
 class GroupProductsWidget extends StatelessWidget {
+
+  final Widget title;
+
+  GroupProductsWidget({@required this.title});
+
   @override
   Widget build(BuildContext context) {
     return Container(
         child: Column(
           children: <Widget>[
-            SimpleTitleWidget.forDesignTime(),
+            title,
             Container(
               width: double.infinity,
             child: IntrinsicHeight(

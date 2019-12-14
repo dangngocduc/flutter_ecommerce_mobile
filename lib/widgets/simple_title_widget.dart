@@ -20,6 +20,7 @@ class SimpleTitleWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint('SimpleTitleWidget ${Theme.of(context).colorScheme.toString()}');
     return Container(
       padding: kPaddingStandard,
         child: Row(
@@ -31,6 +32,7 @@ class SimpleTitleWidget extends StatelessWidget {
                 DefaultTextStyle(
                     style: Theme.of(context).textTheme.display1.copyWith(
                       fontWeight: FontWeight.w800,
+                      color: Theme.of(context).colorScheme.onBackground
                     ),
                     child: title),
                 DefaultTextStyle(

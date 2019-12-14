@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:template_app/theme/app_icons.dart';
 
 const Color _kKeyUmbraOpacity = Color(0x24000000); //
 const Color _kKeyPenumbraOpacity = Color(0x1F000000); // alpha = 0.14
@@ -23,10 +24,10 @@ class ProductWidget extends StatelessWidget {
               children: <Widget>[
                 ClipRRect(
                   child: AspectRatio(
-                    aspectRatio: 0.75,
+                    aspectRatio: 0.8,
                     child: Container(
-                      child: Image.network(
-                        'https://media-ak.static-adayroi.com/240_346/90/h5a/hb7/26403520118814.jpg',
+                      child: Image.asset(
+                        AppIcons.demoProduct1,
                         fit: BoxFit.cover,),
                     ),
                   ),

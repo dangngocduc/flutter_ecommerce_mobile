@@ -12,14 +12,24 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Home Page'),
-      ),
       body: CustomScrollView(
         slivers: <Widget>[
           SliverToBoxAdapter(
-            child: GroupProductsWidget(),
-          )
+            child: BannerSimple1Widget.forDesignTime(),
+          ),
+          SliverToBoxAdapter(
+            child: GroupProductsWidget(
+              title: SimpleTitleWidget.forDesignTime(),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: GroupProductsWidget(title: SimpleTitleWidget(
+              title: Text('New'),
+              subTitle: Text('You’ve never seen it before!'),
+              action: Text('View all'),
+            ),
+            ),
+          ),
         ],
       ),
     );

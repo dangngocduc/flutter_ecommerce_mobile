@@ -10,7 +10,7 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: 'main',
-      theme: DynamicTheme.of(context).value.themeData,
+      theme: DynamicTheme.of(context).themeData,
       routes: {
         'main': (context) => MainPage()
       },

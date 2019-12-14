@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       customThemeData: CustomThemeData(),
       initThemeData: ThemeData.light().copyWith(
         primaryColor: Colors.red,
+        colorScheme: ColorScheme.light(),
         textTheme: GoogleFonts.quicksandTextTheme(
           Theme.of(context).textTheme,
         ),

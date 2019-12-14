@@ -7,8 +7,6 @@ Design app tham khảo Figma ở link này:
 
 [Design Figma](https://www.figma.com/file/RP12HfFdgvuitYP6lz8X3h/E-commerce-Application-by-Fively-%2F-Light-Version-(Copy)?node-id=91%3A274&viewport=1266%2C-486%2C1.3325926065444946 
 )
-### Ngày 1:
-Tạo được cái khung với app với các thành phần sau:
 
 - Dynamic Theme cho phép config support thay đổi darkmode sau này.
     
@@ -26,6 +24,6 @@ Tạo được cái khung với app với các thành phần sau:
     `lib/widgets/product_widget.dart`
     
 #### Kết quả:
-| Tables        | Are           | Cool  |
+|         |            |   |
 | ------------- |:-------------:| -----:|
-|![](./demo/day1_home.jpg)|![](./demo/day1_home.jpg)|![](./demo/day1_home.jpg)|
+|!|![](./demo/day2_update_home.jpg)||
