@@ -11,13 +11,37 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DynamicThemeWidget(
-      customThemeData: CustomThemeData(),
+      customThemeData: CustomThemeData.light(),
       initThemeData: ThemeData.light().copyWith(
-        primaryColor: Colors.red,
-        colorScheme: ColorScheme.light(),
+        primaryColor: Colors.white,
+        colorScheme: ColorScheme.light().copyWith(
+          onPrimary: Colors.black87,
+          secondary: Colors.redAccent
+        ),
         textTheme: GoogleFonts.quicksandTextTheme(
           Theme.of(context).textTheme,
         ),
+        primaryTextTheme: GoogleFonts.quicksandTextTheme(
+          Theme.of(context).primaryTextTheme,
+        ),
+        tabBarTheme: TabBarTheme(
+          indicator: UnderlineTabIndicator(
+            borderSide: BorderSide(
+              color: Colors.redAccent,
+              width: 4
+            ),
+          ),
+          labelColor: Colors.black87,
+          labelStyle: GoogleFonts.quicksand().copyWith(
+              color: Colors.black87,
+              fontWeight: FontWeight.w800
+          ),
+          unselectedLabelColor: Colors.black54,
+          unselectedLabelStyle: GoogleFonts.quicksand().copyWith(
+            color: Colors.black54
+          ),
+        ),
+        bottomAppBarColor: Colors.transparent
       ),
       initLocale: Locale('vi', 'VN'),
       child: Application(),

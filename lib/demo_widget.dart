@@ -11,7 +11,7 @@ class DemoWidget extends StatelessWidget {
           title: Text('Demo widget'),
         ),
       body: Container(
-        child: GroupProductsWidget(),
+        child: CategoryCardWidget.forDesignTime(),
       ),
     );
   }

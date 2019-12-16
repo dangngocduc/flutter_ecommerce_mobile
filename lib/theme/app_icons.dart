@@ -8,5 +8,7 @@ class AppIcons {
   static const demoSmallBanner = 'icons/demo_small_banner.png';
   static const demoProduct1 = 'icons/demo_product_1.png';
   static const demoProduct2 = 'icons/demo_product_2.png';
+  static const categoryCard1 = 'icons/category_card_1.png';
+  static const categoryCard2 = 'icons/category_card_2.png';
 
 }

@@ -9,12 +9,16 @@ Design app tham khảo Figma ở link này:
 )
 
 - Dynamic Theme cho phép config support thay đổi darkmode sau này.
-    
+
     `lib/theme/dynamic_theme_widget.dart`
     
 - Màn hình Main với _BottomNavigationBar_ có 5 tab như design.
 
     `lib/features/main_page.dart`
+    
+- Màn hình Shop với danh sách category
+
+    `lib/features/shop_page.dart`
     
    
 ### Mapping _Code Widget_  <=>  _Design_
@@ -29,4 +33,4 @@ Design app tham khảo Figma ở link này:
 #### Kết quả Demo:
 |         |            |   |
 | ------------- |:-------------:| -----:|
-|![](./demo/day2_update_home.jpg)|![](./demo/day2_update_home.jpg)|![](./demo/day2_update_home.jpg)|
+|![](./demo/page_home.jpg)|![](./demo/page_shop.jpg)|![](./demo/page_shop.jpg)|

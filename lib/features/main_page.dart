@@ -45,6 +45,7 @@ class _MainPageState extends State<MainPage> {
       ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
+          color: Colors.transparent,
           boxShadow: kElevationToShadow[6]
         ),
         child: ClipRRect(
@@ -59,35 +60,36 @@ class _MainPageState extends State<MainPage> {
             items: [
               BottomNavigationBarItem(
                   icon: SvgPicture.asset(AppIcons.homeInactive,
-                    color: _currentIndex == 0 ? Theme.of(context).primaryColor : Theme.of(context).hintColor,),
+                    color: _currentIndex == 0 ? Theme.of(context).colorScheme.secondary : Theme.of(context).hintColor,),
                   title: Text('Home')
               ),
               BottomNavigationBarItem(
                   icon: SvgPicture.asset(AppIcons.shop,
-                    color: _currentIndex == 1 ? Theme.of(context).primaryColor : Theme.of(context).hintColor,),
+                    color: _currentIndex == 1 ? Theme.of(context).colorScheme.secondary : Theme.of(context).hintColor,),
                   title: Text('Shop')
               ),
               BottomNavigationBarItem(
                   icon: SvgPicture.asset(AppIcons.bag,
-                    color: _currentIndex == 2 ? Theme.of(context).primaryColor : Theme.of(context).hintColor,),
+                    color: _currentIndex == 2 ? Theme.of(context).colorScheme.secondary : Theme.of(context).hintColor,),
                   title: Text('Bag')
               ),
               BottomNavigationBarItem(
                   icon: SvgPicture.asset(AppIcons.favorite,
-                    color: _currentIndex == 3 ? Theme.of(context).primaryColor : Theme.of(context).hintColor,),
+                    color: _currentIndex == 3 ? Theme.of(context).colorScheme.secondary : Theme.of(context).hintColor,),
                   title: Text('Favorite')
               ),
               BottomNavigationBarItem(
                   icon: SvgPicture.asset(AppIcons.profile,
-                    color: _currentIndex == 4 ? Theme.of(context).primaryColor : Theme.of(context).hintColor,),
+                    color: _currentIndex == 4 ? Theme.of(context).colorScheme.secondary : Theme.of(context).hintColor,),
                   title: Text('Profile')
               )
             ],
             currentIndex: _currentIndex,
             backgroundColor: Colors.white,
-            fixedColor: Colors.red,
+            fixedColor: Theme.of(context).colorScheme.secondary,
             selectedLabelStyle: Theme.of(context).textTheme.caption.copyWith(
               fontWeight: FontWeight.w600,
+              color: Theme.of(context).colorScheme.secondary
             ),
             unselectedLabelStyle: Theme.of(context).textTheme.caption.copyWith(
               fontWeight: FontWeight.w300,
