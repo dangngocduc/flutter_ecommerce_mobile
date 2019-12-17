@@ -10,5 +10,7 @@ class AppIcons {
   static const demoProduct2 = 'icons/demo_product_2.png';
   static const categoryCard1 = 'icons/category_card_1.png';
   static const categoryCard2 = 'icons/category_card_2.png';
+  static const filter = 'icons/ic_filter.svg';
+  static const sort = 'icons/ic_sort.svg';
 
 }

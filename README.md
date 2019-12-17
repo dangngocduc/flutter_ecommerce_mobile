@@ -20,6 +20,10 @@ Design app tham khảo Figma ở link này:
 
     `lib/features/shop_page.dart`
     
+- Màn hình Catalog với danh sách product
+
+    `lib/features/catalog_page.dart`
+    
    
 ### Mapping _Code Widget_  <=>  _Design_
 
@@ -33,4 +37,4 @@ Design app tham khảo Figma ở link này:
 #### Kết quả Demo:
 |         |            |   |
 | ------------- |:-------------:| -----:|
-|![](./demo/page_home.jpg)|![](./demo/page_shop.jpg)|![](./demo/page_shop.jpg)|
+|![](./demo/page_home.jpg)|![](./demo/page_shop.jpg)|![](./demo/day3_catalog_ui.jpg)|

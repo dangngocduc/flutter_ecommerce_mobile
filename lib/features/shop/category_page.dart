@@ -34,7 +34,6 @@ class _CategoryPageState extends State<CategoryPage> {
             color: Colors.transparent,
           ),
           CategoryCardWidget(Text('Accesories'), AppIcons.categoryCard2),
-
         ],
       ),
     );
