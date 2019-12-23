@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.white,
         colorScheme: ColorScheme.light().copyWith(
           onPrimary: Colors.black87,
-          secondary: Colors.redAccent
+          secondary: Colors.redAccent,
+          primary: Colors.white,
         ),
         textTheme: GoogleFonts.quicksandTextTheme(
           Theme.of(context).textTheme,

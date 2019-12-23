@@ -38,3 +38,4 @@ Design app tham khảo Figma ở link này:
 |         |            |   |
 | ------------- |:-------------:| -----:|
 |![](./demo/page_home.jpg)|![](./demo/page_shop.jpg)|![](./demo/day3_catalog_ui.jpg)|
+|![](./demo/page_bag.jpg)|![](./demo/page_bag.jpg)|![](./demo/page_bag.jpg)|
