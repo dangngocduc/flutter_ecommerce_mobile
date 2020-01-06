@@ -20,11 +20,12 @@ class MyApp extends StatelessWidget {
           primary: Colors.white,
         ),
         textTheme: GoogleFonts.quicksandTextTheme(
-          Theme.of(context).textTheme,
+
         ),
         primaryTextTheme: GoogleFonts.quicksandTextTheme(
-          Theme.of(context).primaryTextTheme,
+
         ),
+
         tabBarTheme: TabBarTheme(
           indicator: UnderlineTabIndicator(
             borderSide: BorderSide(
